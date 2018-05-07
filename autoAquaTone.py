@@ -27,7 +27,7 @@ while True:    #infinite loop, if engine.cfg is 0 it will stop
 	file3.close()
 	engine =  engine.replace('\n','')
 	engines=False
-	if str(engine) == "0":  engines=True #  if  engine is  0 set enginev true
+	if str(engine) == "0":  engines=True #  if  engine is  0 set engines true
 	if engines:  #if engines is true exit while loopp and stop process
 		print("engine stop")
 		Popen("echo engineStop >> log.txt", shell=True)
