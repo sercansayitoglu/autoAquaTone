@@ -1,0 +1,20 @@
+#"aquatone" doeas the all work! this script just for automatisation
+#I just added few lines based on my own style
+#hope you like it!
+#
+#I am using this script on kali as root
+#if you want to use on ubuntu you have to install ruby gems
+#I tried it on ubuntu and it worked but I dont't remember the codes for installing gem
+#have luck!
+
+
+#NOT: start this script in this directory
+
+#using example: 
+#fill domains.cfg line by line 
+#then just 
+#    ./autoAquaTone.py
+
+#just it
+
+#more github.com/sercansayitoglu
