@@ -38,7 +38,7 @@ while True:    #infinite loop, if engine.cfg is 0 it will stop
 		print ("\n\n")
 		Popen("echo domainCfgisGreaterThenZero >> log.txt",shell=True)
 		sleeptimerow = 0    #reset count
-		file = open("domains.cfg","r")
+		file = open("domains.cfg","r",encoding = "ISO-8859-1")
 		domain = file.readline()    #read next domain from  domains.cfg
 		file.close()
 		domain = domain.replace('\n','')  # delete unwanted things
