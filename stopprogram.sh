@@ -1,5 +1,5 @@
 #!/bin/sh
 
-#this script process will stop engine properly
+#this script will stop engine properly
 
 echo 0 > engine.cfg
