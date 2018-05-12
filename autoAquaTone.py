@@ -45,7 +45,7 @@ while True:    #infinite loop, if engine.cfg is 0 it will stop
 		domain = file.readline()    #read next domain from  domains.cfg
 		file.close()
 		domain = domain.replace('\n','')  # delete unwanted things
-		file2 = open("history.cfg","r")
+		file2 = open("history.cfg","r",encoding = "ISO-8859-1")
 		history = file2.readlines()
 		file2.close()
 		historyv=False
